@@ -1,0 +1,37 @@
+public class CuentaBanco {
+
+    // Variable privada
+    private double saldo;
+
+    // Getter
+    public double getSaldo() {
+        return saldo;
+    }
+
+    // Setter
+    public void setSaldo(double saldo) {
+
+        // Validación
+        if (saldo >= 0) {
+            this.saldo = saldo;
+        } else {
+            System.out.println("No se permite saldo negativo");
+        }
+    }
+
+    public static void main(String[] args) {
+
+        CuentaBanco cuenta = new CuentaBanco();
+
+        // Modificación mediante setter
+        cuenta.setSaldo(1000);
+
+        // Lectura mediante getter
+        System.out.println("Saldo actual: " + cuenta.getSaldo());
+
+        // Intento inválido
+        cuenta.setSaldo(-500);
+
+        System.out.println("Saldo final: " + cuenta.getSaldo());
+    }
+}

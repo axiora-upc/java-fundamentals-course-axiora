@@ -1,0 +1,25 @@
+public class CuentaBanco {
+
+    // Variable pública
+    public double saldo;
+
+    public static void main(String[] args) {
+
+        CuentaBanco cuenta = new CuentaBanco();
+
+        // Modificando directamente
+        cuenta.saldo = 1000;
+
+        System.out.println("Saldo actual: " + cuenta.saldo);
+
+        // Problema 1: saldo negativo
+        cuenta.saldo = -500;
+
+        System.out.println("Saldo después : " + cuenta.saldo);
+
+        // Problema 2: cualquier persona cambia el dinero
+        cuenta.saldo = 999999;
+
+        System.out.println("Saldo manipulado: " + cuenta.saldo);
+    }
+}
