@@ -1,19 +1,15 @@
-
-public class Main {
+public class Strings {
 
     public static void main(String[] args) {
-
         String mensaje = "Hola mundo";
-        
+
         System.out.println(mensaje);
 
         System.out.println(mensaje.charAt(0));
-        
+
         String nombre = "Carlos";
 
         String saludo = "Hola " + nombre;
         System.out.println(saludo);
-        
     }
 }
-

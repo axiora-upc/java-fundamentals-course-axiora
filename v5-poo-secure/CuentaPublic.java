@@ -1,11 +1,10 @@
-public class CuentaBanco {
+public class CuentaPublic {
 
     // Variable pública
     public double saldo;
 
     public static void main(String[] args) {
-
-        CuentaBanco cuenta = new CuentaBanco();
+        CuentaPublic cuenta = new CuentaPublic();
 
         // Modificando directamente
         cuenta.saldo = 1000;

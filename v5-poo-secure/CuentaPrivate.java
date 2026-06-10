@@ -1,4 +1,4 @@
-public class CuentaBanco {
+public class CuentaPrivate {
 
     // Variable privada
     private double saldo;
@@ -10,7 +10,6 @@ public class CuentaBanco {
 
     // Setter
     public void setSaldo(double saldo) {
-
         // Validación
         if (saldo >= 0) {
             this.saldo = saldo;
@@ -20,8 +19,7 @@ public class CuentaBanco {
     }
 
     public static void main(String[] args) {
-
-        CuentaBanco cuenta = new CuentaBanco();
+        CuentaPrivate cuenta = new CuentaPrivate();
 
         // Modificación mediante setter
         cuenta.setSaldo(1000);
