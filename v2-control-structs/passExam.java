@@ -1,4 +1,4 @@
-public class Main {
+public class passExam {
     public static void main(String[] args) {
         int nota = 15;
         if (nota >= 11) {
