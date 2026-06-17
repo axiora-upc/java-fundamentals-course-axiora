@@ -58,9 +58,9 @@ public class Main {
         System.out.println("\n===== MEJORES ESTUDIANTES =====");
         for (int i = 0; i < 3; i++) {
             if (registros[i].getPromedio() >= 14) {
-                System.out.println(registros[i].getNombre() + " ✓ Aprobado");
+                System.out.println(registros[i].getNombre() + " Aprobado");
             } else {
-                System.out.println(registros[i].getNombre() + " ✗ Necesita mejorar");
+                System.out.println(registros[i].getNombre() + " Necesita mejorar");
             }
         }
 
