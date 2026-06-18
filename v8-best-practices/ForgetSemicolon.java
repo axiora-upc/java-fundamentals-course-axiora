@@ -1,4 +1,4 @@
-public class MyClass {
+public class ForgetSemicolon {
     public static void main(String args[]) {
 
         int edad = 15

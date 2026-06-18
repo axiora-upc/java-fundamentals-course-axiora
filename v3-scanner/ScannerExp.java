@@ -1,11 +1,12 @@
-//Importamos la clase Scanner para poder 
+//Importamos la clase Scanner para poder
 //leer la entrada del usuario
 import java.util.Scanner;
 
-public class MyClass {
-    public static void main(String args[]) {
+public class ScannerExp {
+
+    public static void main(String[] args) {
         //Creamos un objeto Scanner para leer
-        //la información ingresada por el usuario, como 
+        //la información ingresada por el usuario, como
         //la ranura donde se introduce la "moneda".
         Scanner entrada = new Scanner(System.in);
 
@@ -13,7 +14,7 @@ public class MyClass {
         //que información debe ingresar.
         System.out.println("¿Cómo te llamas?");
 
-        //Almacenamos la respuesta en la variable "nombre", 
+        //Almacenamos la respuesta en la variable "nombre",
         //como si la máquina guardara la moneda temporalmente.
         String nombre = entrada.nextLine();
 

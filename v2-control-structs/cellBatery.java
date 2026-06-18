@@ -1,4 +1,5 @@
-public class cellBatery {
+public class CellBatery {
+
     public static void main(String[] args) {
         int bateria = 100;
         while (bateria > 0) {

@@ -1,4 +1,5 @@
-public class gamer {
+public class Gamer {
+
     public static void main(String[] args) {
         int vidas = 0;
         if (vidas > 0) {
